@@ -1,0 +1,21 @@
+:root {
+    --primary-color:#a33cf0;
+    --secundary-color:#271839;
+    --text-light:#fff;
+    --highlightcolor:#e15bc8;
+    --primary-gradient:linear-gradient(90deg, #ff4cc7, #7c2cff);
+    --gradient:linear-gradient(90deg, #ff4ec7, #8c55ff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background: var(--secundary-color);
+    background-image: radial-gradient(circle at top left, #3e195c, transparent 60%), radial-gradient(circle at bottom right, #1a0730, transparent 60%);
+    
+}
