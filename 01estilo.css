@@ -17,5 +17,71 @@
 body{
     background: var(--secundary-color);
     background-image: radial-gradient(circle at top left, #3e195c, transparent 60%), radial-gradient(circle at bottom right, #1a0730, transparent 60%);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Seção do cabeçalho*/
+#mainHeader.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--secundary-color);
+    width: 100%;
+    z-index: 9999;
+}
+
+#mainHeader{transition: all 0.3s ease;}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem !;
+}
+
+.commonBtn {
+    background: var(--gradient);
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.commonBtn:hover{
+    transform: translate(-3px);
+    opacity: 0.9;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 2.5rem;
+    background: #39264a;
+    padding: 10px 22px;
+    border-radius: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav .a:houver{
+    color: var(--primary-color);
+}
+
+.hamburger {
     
 }
