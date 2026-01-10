@@ -84,7 +84,7 @@ nav a:hover{
 }
 
 .hamburger {
-    display: none;
+    display: inline; /* depois devo colocar como o display none por que é como esta no codigo orinal */
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
@@ -119,10 +119,10 @@ nav a:hover{
     font-size: 1.1rem;
     margin-top: 20px;
 }
-.right{
+ .right{
     flex: 1 1 45%;
     text-align: center;
-}
+} 
 .right img{
     width: 70%;
     border-radius: 1rem;
@@ -133,7 +133,8 @@ nav a:hover{
     font-family: fantasy;
     margin-top: 1rem;
     margin-bottom: 4rem;
-}.tagline em{font-size: 1.3rem;}
+}
+.tagline em{font-size: 1.3rem;}
 .social{
     position: fixed;
     bottom: 50px;
