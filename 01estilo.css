@@ -159,6 +159,7 @@ nav a:hover{
 /* Seção Sobre */
 
 .about{
+    height: 500px;
     padding: 4rem 0rem;
     background-image: url(imagens/1_comMascara.png);
     background-size: 100%;
@@ -166,6 +167,7 @@ nav a:hover{
     background-position: center;
 }
 .about .container{
+
     display: flex;
     flex-direction: row;
     max-width: 1200px;
@@ -255,4 +257,23 @@ nav a:hover{
     font-weight: 600;
     margin-bottom: 15px;
     color: white;
+}
+/* teste de animação */
+.hero2 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cac3c389;
+    overflow: hidden;
+}
+
+.mouse-anim {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #00f2ff, #7a00ff);
+    border-radius: 50%;
+}
+.mouse-anim.animate {
+    animation: moveAround 4s infinite;
 }
